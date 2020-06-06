@@ -4,10 +4,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import javax.servlet.http.HttpServletRequest;
+
 import helpers.DBC;
 
 public class User {
-	
 	private DBC dbc;
 	private String uname, upass;
 	
@@ -167,5 +167,4 @@ public class User {
 			return false;
 		}
 	}
-
 }

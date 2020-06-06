@@ -6,7 +6,6 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public class PropertiesReader {
-	
 	InputStream input;
 	Properties prop;
 	String fileName = "config.properties";
@@ -36,5 +35,4 @@ public class PropertiesReader {
 			e.printStackTrace();
 		}
 	}
-
 }
